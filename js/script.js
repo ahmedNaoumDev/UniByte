@@ -14,10 +14,18 @@ function dropmenu(){
         men.style.display = "flex";
     }
 };
-// button.onclick = ()=>{
-//     if(men.style.display == "none"){
-//         men.style.display = "flex";
-//     }else{
-//         men.style.display = "none";
-//     }
-// };
+
+document.querySelector("#dark").addEventListener("click", darkmode);
+
+function darkmode(){
+    if(document.querySelector("body").style.color == "white"){
+        document.querySelector("body").style.color = "black";
+        document.querySelector("body").style.backgroundColor = "white";
+        document.querySelector("#dark").style.color = "black";
+    }else{
+        document.querySelector("body").style.color = "white";
+        document.querySelector("body").style.backgroundColor = "black";
+        document.querySelector("#dark").style.color = "white";
+
+    }
+}
