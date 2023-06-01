@@ -22,10 +22,13 @@ function darkmode(){
         document.querySelector("body").style.color = "black";
         document.querySelector("body").style.backgroundColor = "white";
         document.querySelector("#dark").style.color = "black";
+        document.querySelector("header .container").style.boxShadow = "none";
+
     }else{
         document.querySelector("body").style.color = "white";
         document.querySelector("body").style.backgroundColor = "black";
         document.querySelector("#dark").style.color = "white";
+        document.querySelector("header .container").style.boxShadow = "0px 0px 10px 5px #5b4773";
 
     }
 }
