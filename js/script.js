@@ -1,6 +1,6 @@
 let button = document.getElementById("humberger");
 let men = document.getElementById("menu");
-if(button.style.display == "inline-block" & window.onload){
+if(button.style.display == "inline-block" && window.onload){
      men.style.display = "none";   
 }
 if(window.innerWidth > "769px"){
@@ -22,13 +22,16 @@ function darkmode(){
         document.querySelector("body").style.color = "black";
         document.querySelector("body").style.backgroundColor = "white";
         document.querySelector("#dark").style.color = "black";
-        document.querySelector("header .container").style.boxShadow = "none";
+        document.querySelector(".shadow").classList.add("lightmode");
+        document.querySelector(".shadow").classList.remove("darkmode");
 
     }else{
         document.querySelector("body").style.color = "white";
         document.querySelector("body").style.backgroundColor = "black";
         document.querySelector("#dark").style.color = "white";
-        document.querySelector("header .container").style.boxShadow = "0px 0px 10px 5px #5b4773";
+        document.querySelector(".shadow").classList.add("darkmode");
+        document.querySelector(".shadow").classList.remove("lightmode");
+
 
     }
 }
