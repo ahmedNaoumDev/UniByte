@@ -3,6 +3,9 @@ let men = document.getElementById("menu");
 if(button.style.display == "inline-block" & window.onload){
      men.style.display = "none";   
 }
+if(window.innerWidth > "769px"){
+    men.style.document = "flex";
+}
 button.addEventListener("click", dropmenu);
 function dropmenu(){
     if(men.style.display == "flex"){
