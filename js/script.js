@@ -1,6 +1,8 @@
 let button = document.getElementById("humberger");
 let men = document.getElementById("menu");
-
+if(button.style.display == "inline-block" & window.onload){
+     men.style.display = "none";   
+}
 button.addEventListener("click", dropmenu);
 function dropmenu(){
     if(men.style.display == "flex"){
