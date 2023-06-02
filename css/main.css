@@ -117,23 +117,6 @@ body{
 /*end home*/
 
 /*goals section*/
-    section.goals {
-        /* position: relative;
-        width: 400px;
-        height: 400px;
-        border-radius: 50%; */
-        /* background-color: #5b4773; */
-        /* animation-name: circular;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear; */
-    }
-    /* @keyframes circular {
-        to{
-            transform: rotateZ(360deg);
-        }
-        
-    } */
     .goals .container{
         padding: 0;
         width: 85%;

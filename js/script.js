@@ -110,5 +110,6 @@ function slide(string){
                 array[i].lastElementChild.style.display = "none";
                 array[i].style.removeProperty("background-color");
             }
-        }    }
+        }    
+    }
 }
