@@ -131,7 +131,7 @@ body{
         margin-left: 0%;
         margin-bottom: 10px;
     }
-    .videos video{
+    .videos img{
         width: calc(100% / 4 );
         border-radius: 20px;
     }
