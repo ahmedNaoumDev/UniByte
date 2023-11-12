@@ -4,7 +4,6 @@ import Hero from '@/components/Hero'
 import Members from '@/components/Members'
 import Nav from '@/components/Nav'
 import Stats from '@/components/Stats'
-import Image from 'next/image'
 
 export default function Home() {
   return (

@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     default: "UniByte | Computer science Club",
     template: "%s | UniByte",
   },
-  description: "a full-stack developer",
+  description: "Empowering the next generation of tech enthusiasts. Join UniByte for coding, innovation, and collaboration. Explore opportunities, events, and projects with us.",
   openGraph: {
     title: "UniByte_Club",
-    description: "a full-stack developer",
+    description: "Empowering the next generation of tech enthusiasts. Join UniByte for coding, innovation, and collaboration. Explore opportunities, events, and projects with us.",
     url: "",
     siteName: "UniByte | Club",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/uniByte.svg",
   },
 };
 
