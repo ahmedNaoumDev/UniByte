@@ -10,7 +10,7 @@ function Members() {
           Meet Our Visionaries at UniByte
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-          Embark on this journey with our brilliant minds who lead the way at UniByte, shaping the future of technology and innovation. Their commitment to excellence drives our club's mission to inspire, educate, and elevate the computer science community.
+          Embark on this journey with our brilliant minds who lead the way at UniByte, shaping the future of technology and innovation. Their commitment to excellence drives our club&apos;s mission to inspire, educate, and elevate the computer science community.
           </p>
         </div>
         <ul
